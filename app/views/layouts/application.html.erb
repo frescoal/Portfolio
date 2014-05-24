@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="keywords" content="YOUR KEYWORDS HERE">
+<meta name="description" content="YOUR DESCRIPTION HERE">
+
+<!-- Site Title -->
+<title>Alain Fresco - Home</title>
+
+<!-- CSS Styles -->
+
+<%= stylesheet_link_tag    "reset", media: "all", "data-turbolinks-track" => true %>
+<%= stylesheet_link_tag    "text", media: "all", "data-turbolinks-track" => true %>
+<%= stylesheet_link_tag    "fonts", media: "all", "data-turbolinks-track" => true %>
+<%= stylesheet_link_tag    "960", media: "all", "data-turbolinks-track" => true %>
+<%= stylesheet_link_tag    "tauno", media: "all", "data-turbolinks-track" => true %>
+<%= stylesheet_link_tag    "prettyPhoto", media: "all", "data-turbolinks-track" => true %>
+
+<! JavaScripts -->
+<%= javascript_include_tag "jquery-1.7.1.min.js", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "jquery.easing.1.3.js", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "jquery.prettyPhoto.js", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "themedrops-slider.js", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "jjquery.cycle.all.js", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "hover.zoom.js", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "jquery.quicksand.js", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "custom.js", "data-turbolinks-track" => true %>
+<%= csrf_meta_tags %>
+
+
+</head>
+<body>
+	
+	<!-- Site Header -->
+	<div class="site_header">
+		
+		<div class="container_12">
+		
+			<!-- Tauno Logo -->
+			<div class="grid_3">
+				
+				<a href="index.html">
+					<img src="img/logo.png" alt="Alain Fresco"/>
+				</a>
+				
+			</div>
+			<!-- End of: Tauno Logo -->
+			
+			
+			<!-- Main Menu -->
+			<div class="grid_9">
+				
+				<div class="menu_container">
+					<ul>
+						<!-- Home Item -->
+						<li class="home active">
+							<a href="index.html">Home</a>
+						</li>
+						<!-- End of: Home Item -->
+						<li>
+							<a href="page.html">Curriculum vitae</a>
+						</li>
+						<li>
+							<a href="portfolio.html">Portfolio</a>
+							
+							<!-- Submenu -->
+							<ul>
+								<li>
+									<a href="#">Categorie 1</a>
+								</li>
+								
+								<li>
+									<a href="#">Categorie 2</a>
+								</li>
+								
+								<li>
+									<a href="#">Categorie 3</a>
+								</li>
+								
+								<li>
+									<a href="#">Categorie 4</a>
+								</li>
+							</ul>
+							<!-- End of:Submenu -->
+							
+						</li>
+						<li>
+							<a href="blog.html">Blog</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>
+						<div class="clear"></div>
+					</ul>
+				</div>
+				
+			</div>
+			<!-- End of: Main Menu -->
+			
+		</div>
+		
+	</div>
+	<!-- End of: Site Header -->
+	
+	
+	<!-- Slider -->
+	<div class="main_slider">
+		
+		<div class="container_12">
+			
+			<div class="grid_12">
+			
+				<ul class="slider_container" id="themedrops_slider">
+					
+					<li>
+						
+						<div class="featured_image">
+							<img src="http://lorempixel.com/g/605/360/business/" alt="blog-post-img" width="605" height="360" />
+						</div>
+						
+						<div class="featured_text">
+							<h1>
+								<a href="#">Projet <span>Riviera Enseignes</span></a>
+							</h1>
+							
+							<div class="post_details">
+								<div class="author_date">
+									Par <a href="#">Alain Fresco</a> à <a href="#">12/05/2014</a>
+								</div>
+								
+								<a class="comment_box" href="#">2</a>
+							</div>
+							
+							<div class="post_text">
+								<p>L'entreprise Riviera Enseignes, active dans la réalisation de publicité, nous a mandaté (Alain FRESCO et moi-même) pour la réalisation de leur site internet.
+								Ce site a pour objectif de présenter les différentes prestations offerte pas l'entreprise,<p>	
+							
+							</div>
+							
+							<a href="#" class="btn">
+								<span>Lire la suite</span>
+							</a>					
+						</div>
+						
+					</li>
+				
+				<li>
+						
+						<div class="featured_image">
+							<img src="http://lorempixel.com/g/605/360/sports/" alt="blog-post-img" width="605" height="360" />
+						</div>
+						
+						<div class="featured_text">
+							<h1>
+								<a href="#">Projet <span>Aectra SA</span></a>
+							</h1>
+							
+							<div class="post_details">
+								<div class="author_date">
+									Par <a href="#">Alain Fresco</a> à <a href="#">12/05/2014</a>
+								</div>
+								
+								<a class="comment_box" href="#">2</a>
+							</div>
+							
+							<div class="post_text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit mi eu laoreet accumsan.
+								Vestibulum porttitor lectus non libero gravida, vitae aliquet orci interdum. Ut augue sapien, aliquam ut iaculis a,
+								pretium eget augue. Nulla sollicitudin urna nec ullamcorper imperdiet. Nulla facilisi. Proin mollis nulla nunc, sed cursus ipsum sollicitudin quis. 
+								Vivamus sed varius neque. Aliquam eget vestibulum mauris.<p>	
+							</div>
+							
+							<a href="#" class="btn">
+								<span>Lire la suite</span>
+							</a>					
+						</div>
+						
+					</li>
+					<li>
+						
+						<div class="featured_image">
+							<img src="http://lorempixel.com/g/605/360/technics/" alt="blog-post-img" width="605" height="360" />
+						</div>
+						
+						<div class="featured_text">
+							<h1>
+								<a href="#">Projet <span>Riviera Green Race</span></a>
+							</h1>
+							
+							<div class="post_details">
+								<div class="author_date">
+									Par <a href="#">Alain Fresco</a> à <a href="#">12/05/2014</a>
+								</div>
+								
+								<a class="comment_box" href="#">2</a>
+							</div>
+							
+							<div class="post_text">
+								<p>Ut magna tortor, faucibus sodales viverra nec, aliquam eget mi. Nunc quis eleifend augue. Donec venenatis faucibus eros id vehicula. Nulla eu porta lorem, id ultricies nisl.
+								Nullam eleifend, tortor pretium ultrices pretium, ipsum ipsum convallis turpis, ac dignissim nibh dolor at libero. Etiam in lectus elit. Donec in porttitor elit, a sagittis tortor.<p>	
+							
+							</div>
+							
+							<a href="#" class="btn">
+								<span>Lire la suite</span>
+							</a>					
+						</div>
+						
+					</li>
+					
+					<div class="clear"></div>
+				</ul>
+				
+				
+				<div class="slider_shadow"></div>
+			
+				<div class="slider_buttons">
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	<div class="container_12">
+	
+		<!-- Post Categories -->
+		<div class="grid_12">
+			<div class="post_categories" id="homepage_post_categories_menu">
+				<h1>Derniers articles</h1>
+				
+				<ul>
+					<li>
+						<a href="#" class="active" data-category="all">Tous</a>
+					</li>
+					<li>
+						<a href="#" data-category="web">Web</a>
+					</li>
+					<li>
+						<a href="#" data-category="design">Design</a>
+					</li>
+					<li>
+						<a href="#" data-category="technology">Technologie</a>
+					</li>
+					<li>
+						<a href="#" data-category="system">Système</a>
+					</li>
+				</ul>
+				
+				<a href="portfolio.html" class="btn">
+					<span>Tous les articles</span>
+				</a>
+				
+				<div class="clear"></div>
+			</div>
+		</div>
+		
+		<div class="clear"></div>
+		<!-- End of: Post Categories -->
+		
+		
+		<!-- Posts -->
+		<div class="posts" id="homepage_posts">
+		
+			<!-- Post Item -->
+			<div class="grid_4" data-id="1" data-category="web technology">
+				
+				<div class="post_item">
+					
+					<a href="blog.html" class="overlay">
+						<img src="http://lorempixel.com/280/194/city" alt="post-img-1" width="280" height="194" />
+					</a>
+					
+					<h1>
+						<a href="blog.html">Un titre de dingue !! </a>
+					</h1>
+					
+					<p>
+						Pellentesque dictum, lacus eget viverra porttitor, velit sapien cursus arcu, sit amet lobortis leo massa ac nulla. Duis adipiscing pretium vulputate. 
+						<a href="blog.html">Lire la suite</a>
+					</p>
+					
+					<div class="post_details">
+						<div class="author_date">
+							Par <a href="#">Alain Fresco</a> à <a href="#">15/3/2013</a>
+						</div>
+						
+						<a class="comment_box" href="blog.html">3</a>
+					</div>
+					
+				</div>
+				<div class="post_shadow"></div>
+			</div>
+			<!-- Post Item -->
+		
+			<!-- Post Item -->
+			<div class="grid_4" data-id="2" data-category="web system">
+				
+				<div class="post_item">
+					
+					<a href="blog.html" class="overlay">
+						<img src="http://lorempixel.com/280/194/cats" alt="post-img-1" width="280" height="194" />
+					</a>
+					
+					<h1>
+						<a href="blog.html">Un titre de dingue !! </a>
+					</h1>
+					
+					<p>
+						Pellentesque dictum, lacus eget viverra porttitor, velit sapien cursus arcu, sit amet lobortis leo massa ac nulla. Duis adipiscing pretium vulputate. 
+						<a href="blog.html">Lire la suite</a>
+					</p>
+					
+					<div class="post_details">
+						<div class="author_date">
+							Par <a href="#">Alain Fresco</a> à <a href="#">15/3/2013</a>
+						</div>
+						
+						<a class="comment_box" href="blog.html">3</a>
+					</div>
+					
+				</div>
+				<div class="post_shadow"></div>
+			</div>
+			<!-- Post Item -->
+		
+			<!-- Post Item -->
+			<div class="grid_4" data-id="3" data-category="design web">
+				
+				<div class="post_item">
+					
+					<a href="blog.html" class="overlay">
+						<img src="http://lorempixel.com/280/194/transport" width="280" height="194" />
+					</a>
+					
+					<h1>
+						<a href="blog.html">Un titre de dingue !! </a>
+					</h1>
+					
+					<p>
+						Pellentesque dictum, lacus eget viverra porttitor, velit sapien cursus arcu, sit amet lobortis leo massa ac nulla. Duis adipiscing pretium vulputate. 
+						<a href="blog.html">Lire la suite</a>
+					</p>
+					
+					<div class="post_details">
+						<div class="author_date">
+							Par <a href="#">Alain Fresco</a> à <a href="#">15/3/2013</a>
+						</div>
+						
+						<a class="comment_box" href="blog.html">3</a>
+					</div>
+					
+				</div>
+				<div class="post_shadow"></div>
+			</div>
+			<!-- Post Item -->
+		
+			<!-- Post Item -->
+			<div class="grid_4" data-id="4" data-category="design technology">
+				
+				<div class="post_item">
+					
+					<a href="blog.html" class="overlay">
+						<img src="http://lorempixel.com/280/194/abstrac	t" alt="post-img-1" width="280" height="194" />
+					</a>
+					
+					<h1>
+						<a href="blog.html">Un titre de dingue !! </a>
+					</h1>
+					
+					<p>
+						Pellentesque dictum, lacus eget viverra porttitor, velit sapien cursus arcu, sit amet lobortis leo massa ac nulla. Duis adipiscing pretium vulputate. 
+						<a href="blog.html">Lire la suite</a>
+					</p>
+					
+					<div class="post_details">
+						<div class="author_date">
+							Par <a href="#">Alain Fresco</a> à <a href="#">15/3/2013</a>
+						</div>
+						
+						<a class="comment_box" href="blog.html">3</a>
+					</div>
+					
+				</div>
+				<div class="post_shadow"></div>
+			</div>
+			<!-- Post Item -->
+		
+			<!-- Post Item -->
+			<div class="grid_4" data-id="5" data-category="web">
+				
+				<div class="post_item">
+					
+					<a href="blog.html" class="overlay">
+						<img src="http://lorempixel.com/280/194/nature" alt="post-img-1" width="280" height="194" />
+					</a>
+					
+					<h1>
+						<a href="blog.html">Un titre de dingue !! </a>
+					</h1>
+					
+					<p>
+						Pellentesque dictum, lacus eget viverra porttitor, velit sapien cursus arcu, sit amet lobortis leo massa ac nulla. Duis adipiscing pretium vulputate. 
+						<a href="blog.html">Lire la suite</a>
+					</p>
+					
+					<div class="post_details">
+						<div class="author_date">
+							Par <a href="#">Alain Fresco</a> à <a href="#">15/3/2013</a>
+						</div>
+						
+						<a class="comment_box" href="blog.html">3</a>
+					</div>
+					
+				</div>
+				<div class="post_shadow"></div>
+			</div>
+			<!-- Post Item -->
+		
+			<!-- Post Item -->
+			<div class="grid_4" data-id="6" data-category="web design">
+				
+				<div class="post_item">
+					
+					<a href="blog.html" class="overlay">
+						<img src="http://lorempixel.com/280/194/nightlife" alt="post-img-1" width="280" height="194" />
+					</a>
+					
+					<h1>
+						<a href="blog.html">Un titre de dingue !! </a>
+					</h1>
+					
+					<p>
+						Pellentesque dictum, lacus eget viverra porttitor, velit sapien cursus arcu, sit amet lobortis leo massa ac nulla. Duis adipiscing pretium vulputate. 
+						<a href="blog.html">Lire la suite</a>
+					</p>
+					
+					<div class="post_details">
+						<div class="author_date">
+							Par <a href="#">Alain Fresco</a> à <a href="#">15/3/2013</a>
+						</div>
+						
+						<a class="comment_box" href="blog.html">3</a>
+					</div>
+					
+				</div>
+				<div class="post_shadow"></div>
+			</div>
+			<!-- Post Item -->
+			
+			
+			<div class="clear"></div>
+			
+		</div>
+		<!-- End of: Posts -->
+		
+	</div>
+	<!-- End of: Latest Posts -->
+	
+	
+	<!-- Footer Blocks -->
+	<div class="footer_block">
+		
+		<div class="container_12">
+		
+			<!-- Who We Are -->
+			<div class="grid_4">
+				
+				<h1 class="caption">
+					A Propos 
+					<div class="arrow"></div>
+				</h1>
+				
+				<p>
+					Bla bla bla du texte sur l'auteur 
+				</p>
+
+				<p>
+				Proin at felis venenatis, mollis erat et, luctus turpis. Fusce ullamcorper dictum viverra
+					<!-- Open the Popup -->
+					<a href="#about_more" class="about_popup_open">Lire la suite</a>
+				</p>
+			</div>
+			
+			<div id="about_more" class="about_popup">
+				
+				<h1>
+					En savoir plus <span>Alain Fresco</span>
+				</h1>
+				
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p> 
+				<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+				<p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+				
+			</div>
+			
+			<div class="grid_4">
+				
+				<h1 class="caption">
+					Dernier Articles
+					<div class="arrow"></div>
+				</h1>
+			
+				<div class="tweets">
+				
+					<!-- Tweet 1 -->
+					<p>
+						<a href="#"> Aectra Sa</a> vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.
+						
+						<span class="timespan">il y a 2 jours </span>
+					</p>
+				
+					<!-- Tweet 2 -->
+					<p>
+						<a href="#"> Aectra Sa</a> vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.
+						
+						<span class="timespan">il y a 2 jours </span>
+					</p>
+				
+					<!-- Tweet 3 -->
+					<p>
+						<a href="#"> Aectra Sa</a> vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.
+						
+						<span class="timespan">il y a 2 jours </span>
+					</p>
+				
+					<!-- Tweet 4 -->
+					<p>
+						<a href="#"> Aectra Sa</a> vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.
+						
+						<span class="timespan">il y a 2 jours </span>
+					</p>
+					
+				</div>
+				
+			</div>
+			<!-- End of: Latest Tweets -->
+			
+			
+			<!-- Most Popular -->
+			<div class="grid_4">
+				
+				<h1 class="caption">
+					 Quelques Liens
+					<div class="arrow"></div>
+				</h1>
+
+				
+				<!-- Popular Post -->
+				<div class="popular_post">
+					<% if user_signed_in? %>
+					  Connecté en tant que <strong><%= current_user.email %></strong>.
+					  <%= link_to 'Editez le profil', edit_user_registration_path, :class => 'navbar-link' %> |
+					  <%= link_to "Deconnexion", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+					<% else %>
+					  <%= link_to "S'enregistrer", new_user_registration_path, :class => 'navbar-link'  %> |
+					  <%= link_to "Se connecter", new_user_session_path, :class => 'navbar-link'  %>
+					<% end %>
+				</div>
+				<!-- End of: Popular Post -->
+				
+			</div>
+			<!-- End of: Most Popular -->
+			
+		</div>
+		
+	</div>
+	<!-- End of: Footer Blocks -->
+	
+	
+	<!-- Site Footer -->
+	<div class="site_footer">
+	
+		<div class="container_12">
+			
+			<div class="logo">
+				<img src="img/themedrops.png" alt="themedrops" width="39" height="39" />
+				Copyright 2014 - <a href="http://www.wavemind.ch"> Wavemind </a>
+			</div>
+			
+			<div class="social_media">
+				
+				<a href="#" class="facebook" title="Suivez moi sur Facebook">Suivez moi sur Facebook</a>
+			
+				
+			</div>
+			
+		</div>
+		
+	</div>
+	<!-- End of: Site Footer -->
+	
+	
+</body>
+</html>
+
+
+
+<body>
+	<p class="navbar-text pull-right">
+	<% if user_signed_in? %>
+	  Connecté en tant que <strong><%= current_user.email %></strong>.
+	  <%= link_to 'Editez le profil', edit_user_registration_path, :class => 'navbar-link' %> |
+	  <%= link_to "Deconnexion", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+	<% else %>
+	  <%= link_to "S'enregistrer", new_user_registration_path, :class => 'navbar-link'  %> |
+	  <%= link_to "Se connecter", new_user_session_path, :class => 'navbar-link'  %>
+	<% end %>
+
+<%= yield %>
+
+</body>
+</html>
